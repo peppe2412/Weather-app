@@ -22,3 +22,40 @@
   src: url(assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
   font-weight: 700;
 }
+
+body {
+  background-color: var(--neutral-900);
+  color: var(--neutral-0);
+  font-family: "DMSans";
+  padding: 4rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-units {
+  background-color: var(--neutral-600);
+  color: var(--neutral-0);
+  width: 7.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dropdown-units:hover{
+  background-color: var(--neutral-700);
+}
+
+.dropdown-units-box {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.dropdown-units-box > span{
+  font-size: medium;
+}

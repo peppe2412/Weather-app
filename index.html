@@ -1,58 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Weather app</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  Units
+    <title>Frontend Mentor | Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-  Switch to Imperial/Metric
+    <!-- HEADER -->
+    <header>
+      <div>
+        <img src="/assets/images/logo.svg" alt="Logo" />
+      </div>
+      <div class="dropdown-units">
+        <div class="dropdown-units-box">
+          <img src="/assets/images/icon-units.svg" alt="icon-units" />
+          <span> Units </span>
+          <img src="/assets/images/icon-dropdown.svg" alt="icon-dropdown" />
+        </div>
+      </div>
+    </header>
 
-  Temperature
+    Switch to Imperial/Metric Temperature Celsius (°C) Fahrenheit (°F) Wind
+    Speed km/h mph Precipitation Millimeters (mm) Inches (in) How's the sky
+    looking today? Search for a city, e.g., New York Search Feels like
+    <!-- Insert temperature here -->
 
-  Celsius (°C)
-  Fahrenheit (°F)
+    Humidity
+    <!-- Insert humidity here -->
 
-  Wind Speed
+    Wind
+    <!-- Insert wind here -->
 
-  km/h
-  mph
+    Precipitation
+    <!-- Insert precipitation here -->
 
-  Precipitation
+    Daily forecast
+    <!-- Insert daily forecast for the next 7 days here -->
 
-  Millimeters (mm)
-  Inches (in)
+    Hourly forecast
+    <!-- Insert hourly forecast for the selected day here -->
 
-  How's the sky looking today?
-
-  Search for a city, e.g., New York
-  Search
-
-  Feels like
-  <!-- Insert temperature here -->
-
-  Humidity
-  <!-- Insert humidity here -->
-
-  Wind
-  <!-- Insert wind here -->   
-  
-  Precipitation
-  <!-- Insert precipitation here -->
-
-  Daily forecast
-  <!-- Insert daily forecast for the next 7 days here -->
-
-  Hourly forecast
-  <!-- Insert hourly forecast for the selected day here -->
-
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
